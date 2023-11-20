@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased intensity of the shadow effect */
+  padding: 20px;
+  width: 300px; /* Adjusted width to make the form more slender */
+}
+
+.form-title {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px; /* Reduced margin for better alignment with section names */
+}
+
+.form-section {
+  margin-bottom: 10px; /* Reduced margin between sections */
+  border: 1px solid #ddd; /* Border for each section */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased intensity of the shadow effect */
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.section-title {
+  font-size: 18px;
+}
+
+.download-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url('download-icon.png'); 
+  background-size: cover;
+  cursor: pointer;
+}
